@@ -1,0 +1,56 @@
+/* General Styles */
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: $link-color;
+    text-decoration: none;
+}
+
+.page-content {
+    padding-top: 2rem;
+}
+
+.post-title {
+    margin: 0;
+}
+
+.post-info {
+    font-weight: 100;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: $post-info-color;
+
+    .post-date {
+        margin-right: .5rem;
+    }
+
+    .post-tag {
+        margin-right: .5rem;
+        text-transform: uppercase;
+        padding: 2px 4px;
+        font-size: 70%;
+        font-weight: 600;
+        background-color: $badge-background-color;
+        color: $badge-text-color;
+    }
+}
+
+.post-list {
+    .post-list-item {
+        margin-bottom: 3rem;
+    }
+}
+
+code {
+    background: inherit;
+    font-family: 'Roboto Mono';
+    font-size: 1.2rem;
+}

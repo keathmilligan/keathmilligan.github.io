@@ -1,0 +1,57 @@
+<header role="banner">
+  <nav>
+    <div class="container">
+
+      <!-- Brand / Main Icon -->
+      <div class="brand">
+        <div class="brand-image">
+          <a rel="author" href="{{ '/' | relative_url }}">
+            <img src="{{ '/assets/images/profile.jpg' | relative_url }}">
+          </a>
+        </div>
+        <h4 class="brand-title">
+          <a rel="author" href="{{ '/'' | relative_url }}">
+            {{ site.title | escape }}
+          </a>
+        </h4>
+      </div>
+
+      <!-- Social Icons / Links -->
+      <div class="links">
+        <ul>
+
+          {%- if site.rss -%}
+          <li>
+            <a href="{{ '/feed.xml' | relative_url }}" title="RSS Feed" target="_blank">
+              <svg><use xlink:href="{{ '/assets/images/solid.svg#rss-square' | relative_url }}"></use></svg>
+            </a>
+          </li>
+          {%- endif -%}
+
+          {%- if site.github_username -%}
+          <li>
+            <a href="https://github.com/{{ site.github_username | cgi_escape | escape }}" title="GitHub" target="_blank">
+              <svg><use xlink:href="{{ '/assets/images/brands.svg#github' | relative_url }}"></use></svg>
+            </a>
+          </li>
+          {%- endif -%}
+
+          {%- if site.linkedin_username -%}
+          <li>
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username | cgi_escape | escape }}" title="LinkedIn" target="_blank">
+              <svg><use xlink:href="{{ '/assets/images/brands.svg#linkedin' | relative_url }}"></use></svg>
+            </a>
+          </li>
+          {%- endif -%}
+
+          <li>
+            <a href="{{ '/about' | relative_url }}" title="About Me">
+              <svg><use xlink:href="{{ '/assets/images/solid.svg#info-circle' | relative_url }}"></use></svg>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,68 @@
+/* Top Navigation Bar */
+
+body {
+    padding-top: $navbar-height;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: $navbar-height;
+    background-color: $navbar-background-color;
+    border-bottom: 1px solid $navbar-border-color;
+
+    .brand {
+        .brand-image {
+            float: left;
+            padding-top: 5px;
+            img {
+                border-radius: 50%;
+                width: $navbar-height - 10px;
+                height: $navbar-height - 10px; 
+            }
+        }
+
+        .brand-title {
+            float: left;
+            height: $navbar-height;
+            line-height: $navbar-height;
+            padding-left: 10px;
+            margin: 0;
+            font-weight: 400;
+
+            a {
+                display: inline-block;
+                vertical-align: middle;
+                line-height: normal;
+            }
+        }
+    }
+
+    .links {
+        float: right;
+        height: $navbar-height;
+        
+        ul {
+            list-style: none;
+            margin: 0;
+            
+            li {
+                padding-left: 5px;
+                padding-top: ($navbar-height - $social-icon-size) / 2;
+                margin: 0;
+                display: inline-block;
+                width: $social-icon-size;
+                height: $social-icon-size;
+
+                svg {
+                    fill: $social-icon-color;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
