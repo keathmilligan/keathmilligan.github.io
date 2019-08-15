@@ -1,0 +1,21 @@
+<h3 class="post-title">
+  <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+</h3>
+
+{%- include post-info.html -%}
+
+{%- if site.show_excerpts -%}
+<div class="post-excerpt">
+  {{ post.excerpt }}
+</div>
+
+<div class="post-readmore">
+  <a class="post-readmore-text" href="{{ post.url | relative_url }}">
+    READ MORE
+  </a>
+  <a class="post-readmore-icon" href="{{ post.url | relative_url }}">
+    <!-- <svg><use xlink:href="{{ '/assets/images/solid.svg#angle-double-right' | relative_url }}"></use></svg> -->
+    <i class="fas fa-angle-double-right"></i>
+  </a>
+</div>
+{%- endif -%}

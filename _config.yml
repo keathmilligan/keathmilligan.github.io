@@ -33,6 +33,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 livereload: true
 show_excerpts: true
 excerpt_separator: <!--more-->

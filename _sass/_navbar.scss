@@ -29,15 +29,9 @@ nav {
             float: left;
             height: $navbar-height;
             line-height: $navbar-height;
+            vertical-align: middle;
             padding-left: 10px;
             margin: 0;
-            font-weight: 400;
-
-            a {
-                display: inline-block;
-                vertical-align: middle;
-                line-height: normal;
-            }
         }
     }
 
@@ -61,6 +55,44 @@ nav {
                     fill: $social-icon-color;
                     height: 100%;
                     width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    body {
+        padding-top: $navbar-height-mobile;
+    }
+    
+    nav {
+        height: $navbar-height-mobile;
+    
+        .brand {
+            .brand-image {
+                img {
+                    width: $navbar-height-mobile - 10px;
+                    height: $navbar-height-mobile - 10px; 
+                }
+            }
+    
+            .brand-title {
+                height: $navbar-height-mobile;
+                line-height: $navbar-height-mobile;
+                font-size: $navbar-height-mobile / 2;
+            }
+        }
+    
+        .links {
+            height: $navbar-height-mobile;
+            
+            ul {
+                
+                li {
+                    padding-top: ($navbar-height-mobile - $social-icon-size-mobile) / 2;
+                    width: $social-icon-size-mobile;
+                    height: $social-icon-size-mobile;
                 }
             }
         }
