@@ -181,6 +181,7 @@ ul {
         height: inherit;
         line-height: inherit;
         vertical-align: inherit;
+        overflow: auto;
    
         .post-date {
             display: block;
@@ -190,6 +191,12 @@ ul {
         .post-tags {
             display: block;
             margin-bottom: 4px;
+            max-width: 100%;
+
+            .post-tag {
+                display: block;
+                float: left;
+            }
         }
     }
 
