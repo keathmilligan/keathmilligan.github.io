@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android OpenCV Test
+title: Native Android OpenCV Test
 date: 2018-01-19 00:00:00 -0500
 categories: [dev]
 tags: [ios, opencv, macos, xcode, swift]
