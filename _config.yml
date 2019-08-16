@@ -26,6 +26,7 @@ linkedin_username: keath-milligan
 disqus:
   shortname: keathmilligan
 rss: true
+timezone: America/Chicago
 
 # Build settings
 theme: null
