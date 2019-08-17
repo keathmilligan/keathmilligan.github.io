@@ -27,6 +27,7 @@ disqus:
   shortname: keathmilligan
 rss: true
 timezone: America/Chicago
+google_analytics: UA-145820276-1
 
 # Build settings
 theme: null
