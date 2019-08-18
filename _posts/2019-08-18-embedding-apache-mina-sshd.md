@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Embedding Apache the MINA sshd server
+title: Embedding the Apache MINA sshd server
 date: 2019-08-18 12:00:57 -0500
 categories: [dev, testing]
 tags: [java, ssh]
