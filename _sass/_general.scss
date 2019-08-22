@@ -50,6 +50,20 @@ ul {
     margin-right: 3rem;
 }
 
+blockquote {
+    border: 1px solid #ccc;
+    background: $blockquote-background;
+    border-radius: 4px;
+    margin-block-start: 0.5em;
+    margin-block-end: 1.5em;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+
+    p {
+        margin: 1rem;
+    }
+}
+
 .column, .columns {
     margin-left: 2%;
 }
