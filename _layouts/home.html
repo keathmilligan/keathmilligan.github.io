@@ -7,39 +7,27 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
 
-  {%- assign imgctr = 0 -%}
-  {%- for post in site.posts -%}
-  <div class="post-list">
+    {%- for post in site.posts -%}
+    <div class="post-list">
 
-    <div class="post-list-item">
+      <div class="post-list-item">
 
-      {%- if post.featured-img -%}
-        {%- assign mod = imgctr | modulo: 2 -%}
-        <div class="row">
-          {%- if mod == 0 -%}
-          <div class="three columns">
-            {%- include post-item-img.html -%}
+        {%- if post.featured-img -%}
+          <div class="row">
+            <div class="nine columns post-item-text">
+              {%- include post-item.html -%}
+            </div>
+            <div class="three columns post-item-img">
+              {%- include post-item-img.html -%}
+            </div>
           </div>
-          <div class="nine columns">
-            {%- include post-item.html -%}
-          </div>
-          {%- else -%}
-          <div class="nine columns">
-            {%- include post-item.html -%}
-          </div>
-          <div class="three columns">
-            {%- include post-item-img.html -%}
-          </div>
-          {%- endif -%}
-        </div>
-        {%- assign imgctr = imgctr | plus: 1 -%}
-      {%- else -%}
-        {%- include post-item.html -%}
-      {%- endif -%}
+        {%- else -%}
+          {%- include post-item.html -%}
+        {%- endif -%}
 
+      </div>
     </div>
-  </div>
-  {%- endfor -%}
+    {%- endfor -%}
 
   {%- endif -%}
 

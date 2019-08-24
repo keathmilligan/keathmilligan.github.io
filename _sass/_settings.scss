@@ -1,12 +1,19 @@
 /* Style Settings */
 
+/* color palette */
+$color-darkest: #011f4b;
+$color-darker: #03396c;
+$color-medium: #005b96;
+$color-lighter: #6497b1;
+$color-lightest: #b3cde0;
+
 /* General Stuff */
-$link-color: #4b86b4;
-$post-info-color: rgb(103, 108, 112);
-$badge-background-color: #2a4d69;
+$link-color: $color-medium;
+$post-info-color: $color-lighter;
+$badge-background-color: $color-darkest;
 $badge-text-color: white;
 $footer-text-color: rgb(97, 97, 97);
-$blockquote-background: #e7eff6;
+$blockquote-background: $color-lightest;
 
 /* Navigation Bar */
 $navbar-height: 80px;
@@ -17,4 +24,4 @@ $navbar-border-color: #e0e0e0;
 /* Social Icons */
 $social-icon-size: 25px;
 $social-icon-size-mobile: 20px;
-$social-icon-color: #adcbe3;
+$social-icon-color: $color-lighter;
