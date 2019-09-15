@@ -51,7 +51,7 @@ This Android build is hard-coded to 720p resolution (1280x720). Your display mus
 
 The display used here is a 7" 800x480 capacitive touch display sold under various brand names. This particular unit is a [Velleman VMP402](https://www.velleman.eu/products/view/?id=439070) available from many sources. There are other similar displays in different sizes and resolutions - it may possible to modify these instructions to get those to work as well.
 
-Also note that this display draws power from the RPi's USB port, so be sure your power supply is up to the task. i use a 
+Also note that this display draws power from the RPi's USB port, so be sure your power supply is up to the task.
 
 ## Method 1 - Rebuild the rpiboot image
 
