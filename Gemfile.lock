@@ -143,9 +143,6 @@ GEM
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-swiss (1.0.0)
-    jekyll-target-blank (2.0.0)
-      jekyll (>= 3.0, < 5.0)
-      nokogiri (~> 1.10)
     jekyll-theme-architect (0.1.1)
       jekyll (~> 3.5)
       jekyll-seo-tag (~> 2.0)
@@ -245,10 +242,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages
-  jekyll-feed
-  jekyll-seo-tag
-  jekyll-target-blank
+  github-pages (~> 204)
 
 BUNDLED WITH
    2.1.4
