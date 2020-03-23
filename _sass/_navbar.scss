@@ -40,10 +40,12 @@ nav {
         height: $navbar-height;
         
         ul {
+            all: unset;
             list-style: none;
             margin: 0;
             
             li {
+                all: unset;
                 padding-left: 5px;
                 padding-top: ($navbar-height - $social-icon-size) / 2;
                 margin: 0;
@@ -56,6 +58,9 @@ nav {
                     height: 100%;
                     width: 100%;
                 }
+            }
+            li:before {
+                all:unset;
             }
         }
     }
