@@ -1,6 +1,21 @@
 ---
 layout: default
 ---
+
+<script>
+// open external links in new tab
+document.addEventListener('DOMContentLoaded', (event) => {
+  var links = document.querySelectorAll('article a[href]');
+  console.log(`${links.length} links found`);
+  links.forEach((link) => {
+    if (link.origin !== self.origin) {
+      link.target = '_blank';
+      link.innerHTML += '&nbsp;<i class="fas fa-external-link-alt"></i>'
+    }
+  });
+});
+</script>
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
