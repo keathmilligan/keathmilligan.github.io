@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Runniung Jekyll on Windows with Ruby 2.7
+title: Running Jekyll on Windows with Ruby 2.7
 date: 2020-08-21 08:12:12 -0500
 categories: [dev]
 tags: [ruby, jekyll, github-pages, windows]
