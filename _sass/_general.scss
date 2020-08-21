@@ -6,7 +6,12 @@ body {
     color: $foreground-color;
 }
 
+h1{
+    color: $header-color;
+}
+
 h2, h3, h4, h5, h6 {
+    color: $subheader-color;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     padding-top: 8px;
@@ -116,8 +121,9 @@ td {
     padding-top: 2rem;
 }
 
-.post-title {
+.post-title, .post-title a {
     margin: 0;
+    color: $header-color;
 }
 
 .post-info {
