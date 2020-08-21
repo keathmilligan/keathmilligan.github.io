@@ -41,6 +41,9 @@ gem uninstall eventmachine
 gem install eventmachine --platform ruby
 ```
 
+> Note: if you update your installation later (`bundle update`), you will need to repeat this step.
+{: .warning}
+
 ### Gemfile
 
 Your gemfile should look something like this:
