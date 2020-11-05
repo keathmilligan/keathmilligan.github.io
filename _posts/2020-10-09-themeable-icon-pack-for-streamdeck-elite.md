@@ -6,8 +6,9 @@ categories: [gaming]
 tags: [elite dangerous, stream deck]
 featured-img: stream-deck.jpg
 ---
+A themeable language-neutral icon pack for Stream Deck with the stream-deck-elite plugin for Elite Dangerous.
 
-A themeable language-neutral icon pack for Stream Deck with the [stream-deck-elite](https://github.com/mhwlng/streamdeck-elite) plugin for Elite Dangerous.
+[Download from Github](https://github.com/Ordo-Corona-Stellarum/streamdeck-elite-icons)
 
 <!--more-->
 
@@ -16,3 +17,5 @@ A themeable language-neutral icon pack for Stream Deck with the [stream-deck-eli
 A new Elite Dangerous icon pack for the Stream Deck family of programmable button boxes with the [stream-deck-elite](https://github.com/mhwlng/streamdeck-elite) plugin.
 
 See [Github page](https://github.com/Ordo-Corona-Stellarum/streamdeck-elite-icons) for more info.
+
+![Sidewinder OrangeTheme](/assets/images/Sidewinder%20Orange.png)
