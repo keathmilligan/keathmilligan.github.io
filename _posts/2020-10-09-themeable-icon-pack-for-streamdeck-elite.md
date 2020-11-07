@@ -6,9 +6,7 @@ categories: [gaming]
 tags: [elite dangerous, stream deck]
 featured-img: stream-deck.jpg
 ---
-A themeable language-neutral icon pack for Stream Deck with the stream-deck-elite plugin for Elite Dangerous.
-
-[Download from Github](https://github.com/Ordo-Corona-Stellarum/streamdeck-elite-icons)
+A themeable language-neutral icon pack for Stream Deck with the stream-deck-elite plugin for Elite Dangerous. [Download from Github](https://github.com/Ordo-Corona-Stellarum/streamdeck-elite-icons)
 
 <!--more-->
 

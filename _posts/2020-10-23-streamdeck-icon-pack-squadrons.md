@@ -7,9 +7,7 @@ tags: [star wars squadrons, stream deck]
 featured-img: squadrons-streamdeck.jpg
 ---
 
-Themeable Star Wars Squadrons icon pack for Stream Deck.
-
-[Download from Github](https://github.com/Ordo-Corona-Stellarum/streamdeck-squadrons-icons/releases)
+Themeable Star Wars Squadrons icon pack for Stream Deck. [Download from Github](https://github.com/Ordo-Corona-Stellarum/streamdeck-squadrons-icons/releases)
 
 <!--more-->
 
