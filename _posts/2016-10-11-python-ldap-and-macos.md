@@ -4,7 +4,7 @@ title: Python, LDAP and macOS
 date: 2016-10-11 20:13:00 -0500
 categories: [dev]
 tags: [python, ldap, macos]
-featured-img: 
+image: /assets/images/
 ---
 
 

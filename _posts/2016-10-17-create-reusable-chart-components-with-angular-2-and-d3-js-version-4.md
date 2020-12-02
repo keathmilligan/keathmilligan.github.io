@@ -4,7 +4,7 @@ title: Create reusable chart components with Angular 2 and D3.js version 4
 date: 2016-10-17 20:01:00 -0500
 categories: [dev]
 tags: [angular, typescript, d3]
-featured-img: angular2-d3v4.gif
+image: /assets/images/angular2-d3v4.gif
 ---
 
 ![Angular/D3.js](/assets/images/angular2-d3v4.gif)

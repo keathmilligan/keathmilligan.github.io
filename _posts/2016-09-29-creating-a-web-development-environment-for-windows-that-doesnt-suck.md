@@ -4,7 +4,7 @@ title: Creating a web development environment for Windows that doesn’t suck
 date: 2016-09-29 17:32:23 -0500
 categories: [dev]
 tags: [windows, vscode, cmder, tools, web, javascript]
-featured-img: 
+image: 
 ---
 
 While it’s true that many open source projects consider Windows a second class citizen, the reality is that it continues to be the operating system of choice for most business environments and many developers find themselves with no alternative. But this doesn’t mean you have to settle for a poor experience.

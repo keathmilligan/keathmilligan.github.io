@@ -4,7 +4,7 @@ title: Themeable icon pack for Stream Deck Elite
 date: 2020-10-09 11:44:00 -0500
 categories: [gaming]
 tags: [elite dangerous, stream deck]
-featured-img: stream-deck.jpg
+image: /assets/images/stream-deck.jpg
 ---
 A themeable language-neutral icon pack for Stream Deck with the stream-deck-elite plugin for Elite Dangerous. [Download from Github](https://github.com/Ordo-Corona-Stellarum/streamdeck-elite-icons)
 

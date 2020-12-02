@@ -4,7 +4,7 @@ title: Running Jekyll on Windows with Ruby 2.7
 date: 2020-08-21 08:12:12 -0500
 categories: [dev]
 tags: [ruby, jekyll, github-pages, windows]
-featured-img: 
+image: /assets/images/icon-ruby-notext-color.svg
 ---
 
 On Windows, Jekyll will not run out of the box with Ruby 2.7.x. A few additional steps are required. Unfortunately many of the guides out there are out of date and/or refer to tools that are no longer supported so here are the steps that worked for me as of the time of this post.

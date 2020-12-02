@@ -4,7 +4,7 @@ title: "JWT authentication with Flask and Angular 2: a simple end-to-end example
 date: 2016-10-09 13:26:00 -0500
 categories: [dev]
 tags: [flask, angular, jwt, python, javascript, typescript]
-featured-img: flask-angular2-jwt.png
+image: /assets/images/flask-angular2-jwt.png
 ---
 
 <img src="/assets/images/flask-angular2-jwt.png" align="right">JSON Web Tokens are a standard method of securing exchanges between two parties (such as web server app and client) that has a number of advantages over other methods of securing exchanges such as cookie-based sessions – enhanced security, less overhead and statelessness to name a few.

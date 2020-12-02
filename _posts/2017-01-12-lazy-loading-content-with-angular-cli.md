@@ -4,7 +4,7 @@ title: Lazy-loading content with angular-cli
 date: 2017-01-12 20:15:00 -0500
 categories: [dev]
 tags: [angular, typescript]
-featured-img: angular.png
+image: /assets/images/angular.png
 ---
 
 A quick example of creating a lazy-loaded module with angular-cli.

@@ -4,7 +4,7 @@ title: Debugging a Flask 0.11 app in Visual Studio Code
 date: 2016-10-03 19:14:43 -0500
 categories: [dev]
 tags: [python, flask, debugging]
-featured-img: debug_flask_vscode.png
+image: /assets/images/debug_flask_vscode.png
 ---
 
 ![Debugging Flask with VSCode](/assets/images/debug_flask_vscode.png)

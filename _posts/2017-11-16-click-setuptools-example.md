@@ -4,7 +4,7 @@ title: Click setup tools example
 date: 2017-11-16 00:00:00 -0500
 categories: [dev]
 tags: [python]
-featured-img: 
+image: /assets/images/
 ---
 
 The [Click](https://click.palletsprojects.com/en/7.x/) Python library supports creating command-line applications written in Python with robust argument and option parsing and many other useful features tha go above and beyond what is offered by other packages that attempt to fill the same need. This is a very simple example of a Python command-line utility using Click with a setuptools-based installer.

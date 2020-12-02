@@ -4,7 +4,7 @@ title: Implement a RESTful interface with Android Things and Raspberry Pi
 date: 2017-01-13 22:16:14 -0500
 categories: [dev]
 tags: [android, android-things, java, rest, raspberry-pi]
-featured-img: rpibcm21ledon.jpg
+image: /assets/images/rpibcm21ledon.jpg
 ---
 
 <img src="/assets/images/bugdroid.png" align="right">[Android Things](https://developer.android.com/things/index.html) (formerly “Brillo”) is a streamlined version of Android designed for small form-factor and IoT devices. Here is a simple example of a Things app that provides a RESTful web interface to control the state of an LED on a Raspberry Pi GPIO port.

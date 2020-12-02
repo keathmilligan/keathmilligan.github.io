@@ -4,7 +4,8 @@ title: Automate your work with the Microsoft Graph API and Python
 date: 2020-03-22 10:26:55 -0500
 categories: [dev]
 tags: [python, rest, microsoft, graph, msal, teams, sharepoint]
-featured-img: msgraph.png
+image: /assets/images/msgraph.png
+image: /assets/images/msgraph.png
 ---
 
 ![Microsoft Graph](/assets/images/msgraph.png)

@@ -4,7 +4,7 @@ title: Cross-platform native 3D rendering engine for Windows, Linux, macOS, iOS 
 date: 2016-10-13 00:00:00 -0500
 categories: [dev]
 tags: [opengl, graphics, c, windows, linux, macos, ios, android]
-featured-img: sg3-legacy.png
+image: /assets/images/sg3-legacy.png
 ---
 
 ![sg3-legacy](/assets/images/sg3-legacy.png)

@@ -4,7 +4,7 @@ title: JSON Web Tokens with Flask and Angular
 date: 2019-08-21 17:52:16 -0500
 categories: [dev]
 tags: [security, angular, python, flask, typescript, jwt]
-featured-img: flask-angular2-jwt.png
+image: /assets/images/flask-angular2-jwt.png
 ---
 
 <img src="assets/images/flask-angular2-jwt.png" align="right">A simple end-to-end example of using [JSON Web Tokens](https://jwt.io/) (JWT) for authentication with token refresh in a Python Flask web server with an Angular front-end.

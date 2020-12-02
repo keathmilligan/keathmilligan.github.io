@@ -4,7 +4,7 @@ title: Embedding the Apache MINA sshd server
 date: 2019-08-18 12:00:57 -0500
 categories: [dev, testing]
 tags: [java, ssh]
-featured-img: mina.png
+image: /assets/images/mina.png
 ---
 
 <img src="/assets/images/mina.png" align="right">A simple example of embedding the latest version of the [Apache MINA pure Java SSHD server](http://mina.apache.org/sshd-project/index.html) in an application.

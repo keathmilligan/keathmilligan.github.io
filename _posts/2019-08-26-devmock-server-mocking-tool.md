@@ -4,7 +4,7 @@ title: "DevMock: Network Server Mocking Tool"
 date: 2019-08-26 18:23:07 -0500
 categories: [dev, testing, devops]
 tags: [devops, testing, mocking, java, http, ssh, telnet, sockets]
-featured-img: devmock.png
+image: /assets/images/devmock.png
 ---
 
 <img src="/assets/images/devmock.png" align="right">**DevMock** is a network test tool that allows you to create "mock" servers with HTTP/HTTPS, SSH or telnet/socket interfaces that will provide responses to requests or commands that you define.

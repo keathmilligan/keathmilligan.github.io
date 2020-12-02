@@ -4,7 +4,7 @@ title: 'Build Notes: Android AOSP for Raspberry Pi 3B+ with 7" LCD Touchpanel'
 date: 2019-09-14 23:02:26 -0500
 categories: [tech]
 tags: [android aosp raspberry-pi]
-featured-img: aosp-rpi3-touch.jpg
+image: /assets/images/aosp-rpi3-touch.jpg
 ---
 
 ![Android AOSP on Raspberry Pi 3B+](/assets/images/aosp-rpi3-touch.jpg)

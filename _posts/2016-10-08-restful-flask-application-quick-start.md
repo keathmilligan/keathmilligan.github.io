@@ -4,7 +4,7 @@ title: RESTful Flask application quick-start
 date: 2016-10-08 22:14:10 -0500
 categories: [dev]
 tags: [flask, rest, python, sqlalchemy, jwt]
-featured-img: flask_icon.png
+image: /assets/images/flask_icon.png
 ---
 
 With the rise of the [single-page application](https://en.wikipedia.org/wiki/Single-page_application) (SPA) web front-ends and mobile apps, the backend of many web applications is a collection of RESTful interfaces that provide JSON data rather than generating HTML. The rendering is up to the client side. While there are some drawbacks to this approach (heavier client, slower initial page loads, etc.), there are also a number of advantages, not the least of which is better [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) since the front-end and back-end code are completely independent of one another.

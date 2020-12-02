@@ -4,7 +4,7 @@ title: 'Cmder tip: enable forward slash completion'
 date: 2016-10-07 23:01:31 -0500
 categories: [dev]
 tags: [cmder, tools]
-featured-img: cmder_icon.png
+image: /assets/images/cmder_icon.png
 ---
 
 <img src="/assets/images/cmder_icon.png" align="right" style="max-width:150px;">[Cmder](http://cmder.net/) includes better command-line tab completion – normally, paths will be completed using the default Windows path separator, the backslash (“\”). But Windows has recognized the forward slash (“/”) as an optional path separator for a while now and there are instances where this might be desirable, especially if you switch between Windows and Unix-like environments (macOS, Linux) often as I do.

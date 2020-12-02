@@ -4,7 +4,7 @@ title: Debugging pytest in VSCode (without adding files to your project)
 date: 2016-10-05 22:34:10 -0500
 categories: [dev]
 tags: [python, pytest, debugging, vscode]
-featured-img: 
+image: /assets/images/
 ---
 
 For debugging pytest executions, the official VSCode Python extension documentation recommends creating an additional file in your project and setting up a launcher to start the debugger against it. While this is simple, I really don’t like having to modify my project’s code or add source files just to satisfy my editor/IDE.

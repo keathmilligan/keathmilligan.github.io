@@ -4,7 +4,7 @@ title: What’s new in Flask 0.11.x?
 date: 2016-09-30 18:04:10 -0500
 categories: [dev]
 tags: [python, flask]
-featured-img: flask_icon.png
+image: /assets/images/flask_icon.png
 ---
 
 <img align="right" src="/assets/images/flask_icon.png">It had been a while since I last started a Flask-based project, so I decided to have a look at what’s. new in the current release. Earlier this year, Flask and several other Python web development projects were organized under the [Pallets Projects](https://www.palletsprojects.com/) open source community and governance model. Along with the move, Flask 0.11 was released with several improvements and new features.

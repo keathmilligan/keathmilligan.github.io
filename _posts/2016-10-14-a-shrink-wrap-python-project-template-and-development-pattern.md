@@ -4,7 +4,7 @@ title: A “shrink-wrap” Python project template and development pattern
 date: 2016-10-14 20:14:00 -0500
 categories: [dev]
 tags: [python]
-featured-img: python.png
+image: /assets/images/python.png
 ---
 
 <img src="/assets/images/python.png" align="right">Javascript development certainly has its ups and downs, but one of the good things about its ecosystem is the ability to easily share projects and quickly get other developers up and running. With most projects, it is simply a matter of cloning the repo and running “npm install” and you are ready to go without needing anything else pre-installed on your system besides NodeJS/NPM. With python, it’s usually not quite that simple.

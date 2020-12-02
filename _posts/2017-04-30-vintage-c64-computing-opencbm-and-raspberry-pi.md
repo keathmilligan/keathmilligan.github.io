@@ -4,7 +4,7 @@ title: Vintage C64 computing, OpenCBM and Raspberry Pi
 date: 2017-04-30 23:17:00 -0500
 categories: [tech, vintage-computing]
 tags: [commodore, raspberry-pi]
-featured-img: commodore64.jpg
+image: /assets/images/commodore64.jpg
 ---
 
 ![Commodore 64 BSS](/assets/images/commodore64.jpg)

@@ -4,7 +4,7 @@ title: Fixing the “This PC Can’t Be Upgraded to Windows 10” issue for May 
 date: 2019-05-19 21:23:00 -0500
 categories: [tech]
 tags: [windows]
-featured-img: win10upgrade.jpg
+image: /assets/images/win10upgrade.jpg
 ---
 
 ![Windows 10 Upgrade Failure](/assets/images/win10upgrade.jpg)
