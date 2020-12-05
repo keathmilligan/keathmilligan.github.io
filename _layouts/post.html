@@ -3,8 +3,8 @@ layout: default
 ---
 
 <script>
-// open external links in new tab
 document.addEventListener('DOMContentLoaded', (event) => {
+  // open external links in new tab
   var links = document.querySelectorAll('article a[href]');
   console.log(`${links.length} links found`);
   links.forEach((link) => {

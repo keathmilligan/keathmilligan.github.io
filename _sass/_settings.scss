@@ -1,11 +1,11 @@
 /* Style Settings */
 
 /* color palette */
-$color-darkest: #273c5a;
-$color-darker: #03396c;
+$color-darkest: #1c2b41;
+$color-darker: #0a2e50;
 $color-medium: #3368ad;
 $color-lighter: #5d95c9;
-$color-lightest: #c4d4f3;
+$color-lightest: #d1daee;
 $color-info: $color-medium;
 $color-warning: #dbdb00;
 $color-danger: #b42727;
@@ -13,12 +13,13 @@ $color-danger: #b42727;
 /* General Stuff */
 $foreground-color: #c2cad8;
 $background-color: #16181b;
-$header-color: #9da3b1;
-$subheader-color: #7e838f;
+$header-color: $color-lightest;
+$subheader-color: $color-lightest;
 $link-color: $color-lighter;
 $link-hover-color: $color-lightest;
 $post-info-color: $color-medium;
 $post-list-item-image-background: $color-darkest;
+$post-list-item-border: $color-darkest;
 $badge-background-color: $color-darkest;
 $badge-text-color: $color-lighter;
 $footer-text-color: rgb(97, 97, 97);

@@ -8,6 +8,7 @@ body {
 
 h1{
     color: $header-color;
+    font-weight: bold;
 }
 
 h2, h3, h4, h5, h6 {
@@ -111,6 +112,15 @@ blockquote {
     p {
         margin: 1rem;
     }
+
+    &.terminal {
+        background-image: url("/assets/images/terminal-icon.png");
+        background-repeat: no-repeat;
+        background-position: 18px 10px;
+        background-size: 100px;
+        min-height: 80px;
+        padding-left: 128px;
+    }
 }
 
 td {
@@ -157,7 +167,9 @@ td {
 }
 
 .post-list-item {
-    margin-bottom: 3rem;
+    padding-bottom: 1.2rem;
+    margin-bottom: 2.5rem;
+    border-bottom: 1px solid $post-list-item-border;
 
     .post-title {
         font-family: Roboto, Arial, Helvetica, sans-serif;
@@ -171,7 +183,7 @@ td {
             height: 120px;
             object-fit: contain;
             // border: 1px solid #ccc;
-            background: $post-list-item-image-background;
+            // background: $post-list-item-image-background;
             border-radius: 4px;
         }
     }
@@ -293,4 +305,8 @@ td {
     font-size: 1.2rem;
     color: $footer-text-color;
     text-align: center;
+}
+
+.clear-both {
+    clear: both;
 }
