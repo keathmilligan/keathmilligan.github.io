@@ -21,7 +21,7 @@ Before we begin, it's worth spending a little time to plan your setup - there ar
 
 The first issue is Windows [container compatibility](https://docs.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/version-compatibility?tabs=windows-server-20H2%2Cwindows-10-20H2). If you're just getting started with Windows containers, you might be surprised to get an error that looks something like this when you try to run a Windows container:
 
-![Windows container verson error](/assets/images/windows-container-version-error.png)
+![error response from daemon the container operating system does not match the host](/assets/images/windows-container-version-error.png)
 
 This is because a Windows container host can only run a container image that is of the _same OS version or older_. For example, if you are running Windows 10 or Server version 1909, you will not be able to run a version 2004 or newer image.
 
@@ -118,7 +118,9 @@ Depending on your setup, you may need to edit `config.toml` to configure additio
 pull_policy = "if-not-present"
 ```
 
-This setting controls the policy used by the Gitlab runner for handling Docker images. The default is `always` which means that the runner will request images from the Docker repository every time. With the new Docker pull-rate limits implemented recently, this could cause you jobs to fail with "
+This setting controls the policy used by the Gitlab runner for handling Docker images. The default is `always` which means that the runner will request images from the Docker repository every time. With the new [Docker pull-rate limits](https://www.docker.com/increase-rate-limits) implemented recently, this could cause your jobs to fail with an error like the following unless you have configured a private mirrored repo or have a paid Docker Hub account:
+
+![Error response from daemon: toomanyrequests: You have reached your pull rate limit](/assets/images/docker-rate-limit.png)
 
 Refer to the [Advanced Configuration](https://docs.gitlab.com/runner/configuration/advanced-configuration.html) section of the Gitlab Runner docs for more info on `pull_policy` and other settings.
 
