@@ -4,7 +4,7 @@ title: Deploying and using Windows containers with Gitlab CI
 date: 2020-12-03 18:44:35 -06:00
 categories: [dev]
 tags: [gitlab, docker, windows, visual studio, ci]
-image: /assets/images/gitlab-docker-windows-visualstudio.svg
+image: /assets/images/gitlab-docker-windows-visualstudio.png
 ---
 
 ![gitlab-docker-windows-visualstudio](/assets/images/gitlab-docker-windows-visualstudio-row.svg)
