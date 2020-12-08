@@ -112,7 +112,15 @@ restart-service docker
 
 Now you are ready to [install and register the Gitlab runner](https://docs.gitlab.com/runner/install/). Be sure to select the `docker-windows` executor.
 
-Depending on your setup, you may need to edit `config.toml` to configure additional options.
+Depending on your setup, you may need to edit `config.toml` to configure additional options. One option in particular you may want to set is the `pull_policy` in the `[runners.docker]` section. For example:
+
+```
+pull_policy = "if-not-present"
+```
+
+This setting controls the policy used by the Gitlab runner for handling Docker images. The default is `always` which means that the runner will request images from the Docker repository every time. With the new Docker pull-rate limits implemented recently, this could cause you jobs to fail with "
+
+Refer to the [Advanced Configuration](https://docs.gitlab.com/runner/configuration/advanced-configuration.html) section of the Gitlab Runner docs for more info on `pull_policy` and other settings.
 
 # Resources
 
