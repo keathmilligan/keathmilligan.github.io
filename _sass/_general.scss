@@ -200,6 +200,15 @@ td {
     }
 }
 
+.post-content .post-excerpt {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 100;
+    margin: 20px 0px 20px 0px;
+    color: $excerpt-text-color;
+}
+
 .post-readmore {
     height: 20px;
     line-height: 20px;

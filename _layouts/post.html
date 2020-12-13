@@ -6,13 +6,20 @@ layout: default
 document.addEventListener('DOMContentLoaded', (event) => {
   // open external links in new tab
   var links = document.querySelectorAll('article a[href]');
-  console.log(`${links.length} links found`);
   links.forEach((link) => {
     if (link.origin !== self.origin) {
       link.target = '_blank';
       link.innerHTML += '&nbsp;<i class="fas fa-external-link-alt"></i>'
     }
   });
+
+  // set excerpt style - first paragraph that contains text
+  for (var p of document.querySelectorAll('.post-content p')) {
+    if (p.textContent) {
+      p.classList.add("post-excerpt");
+      return true;
+    }
+  }
 });
 </script>
 
