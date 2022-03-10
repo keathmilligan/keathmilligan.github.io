@@ -1,41 +1,31 @@
 /* Style Settings */
 
 /* color palette */
-$color-darkest: #1c2b41;
-$color-darker: #0a2e50;
-$color-medium: #3368ad;
-$color-lighter: #5d95c9;
-$color-lightest: #d1daee;
-$color-info: $color-medium;
+$color-info: #4087a3;
 $color-warning: #dbdb00;
 $color-danger: #b42727;
 
 /* General Stuff */
-$foreground-color: #c2cad8;
-$background-color: #16181b;
-$header-color: $color-lightest;
-$subheader-color: $color-lightest;
-$link-color: $color-lighter;
-$link-hover-color: $color-lightest;
-$post-info-color: $color-medium;
-$post-list-item-image-background: $color-darkest;
-$post-list-item-border: $color-darkest;
-$badge-background-color: $color-darkest;
-$badge-text-color: $color-lighter;
-$footer-text-color: rgb(97, 97, 97);
-$blockquote-background: rgb(28, 33, 44);
+$foreground-color: #c9d1d9;
+$background-color: #0d1117;
+$subheader-color: #8b949e;
+$link-color: #58a6ff;
+$blockquote-background: #12151b;
 $inline-code-color: #cad3e2;
-$inline-code-background: rgb(45, 54, 73);
-$table-border: $color-darkest;
-$excerpt-text-color: rgb(166, 184, 204);
+$inline-code-background: #161a22;
+$excerpt-text-color: $subheader-color;
+$border-color: #30363d;
+$badge-background-color: #38669b;
+$badge-text-color: $foreground-color;
+$footer-text-color: #4a5766;
 
 /* Navigation Bar */
 $navbar-height: 80px;
 $navbar-height-mobile: 40px;
 $navbar-background-color: $background-color;
-$navbar-border-color: #262938;
+$navbar-border-color: #30363d;
 
 /* Social Icons */
 $social-icon-size: 25px;
 $social-icon-size-mobile: 20px;
-$social-icon-color: $color-lighter;
+$social-icon-color: $link-color;
