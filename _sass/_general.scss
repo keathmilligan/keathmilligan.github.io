@@ -9,6 +9,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
+
+    code {
+        font-size: inherit;
+    }
 }
 
 h1 {
@@ -92,6 +96,9 @@ blockquote {
     padding-top: 6px;
     padding-bottom: 6px;
 
+    &.tip {
+        border-color: $color-tip;
+    }
     &.warning {
         border-color: $color-warning;
     }
@@ -126,7 +133,6 @@ td {
 }
 
 .post-info {
-    font-weight: 100;
     height: 1.3rem;
     line-height: 1.3rem;
     vertical-align: middle;
@@ -225,16 +231,18 @@ td {
 .post-content {
     padding-top: 2rem;
 
-    img[align="right"],
-    img[align="left"] {
-        margin: 0 2rem 2rem 2rem;
-        max-width: 300px;
-    }
+    img {
+        &[align="right"],
+        &[align="left"] {
+            margin: 0 2rem 2rem 2rem;
+            max-width: 300px;
+        }
+    
 
-    img:not([align]),
-    img[align=""] {
-        width: 100%;
-        display: block;
+        &:not([align]),
+        &[align=""] {
+            max-width: 100%;
+        }
     }
 }
 
