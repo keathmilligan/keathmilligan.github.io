@@ -53,9 +53,13 @@ code {
     background-color: $inline-code-background;
     color: $inline-code-color;
     font-family: 'Roboto Mono';
-    font-size: 1.2rem;
-    overflow-x: auto;
     border: none;
+    margin: 0;
+    padding: 0;
+}
+
+pre > code {
+    overflow-x: auto;
 }
 
 img {

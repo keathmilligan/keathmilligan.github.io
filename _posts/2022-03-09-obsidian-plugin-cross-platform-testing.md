@@ -13,13 +13,13 @@ Testing and debugging an Obsidian plugin on multiple platforms.
 
 <!--more-->
 
-> If you're new to Obsidian plugin development, checkout the [Obsidian Plugin Developer Docs](https://marcus.se.net/obsidian-plugin-docs/getting-started/create-your-first-plugin). This guide assumes you are familiar with the basics.
+> If you're new to Obsidian plugin development, check out the [Obsidian Plugin Developer Docs](https://marcus.se.net/obsidian-plugin-docs/getting-started/create-your-first-plugin). This guide assumes you are familiar with the basics.
 
 When developing a plugin for [Obsidian](https://obsidian.md/), it is important to make sure it behaves correctly on all of the platform types that it is going to run on. While most plugins that work on desktop will *probably* work OK in other environments, there's no way of knowing for sure without testing first. And it isn't uncommon to discover issues that are unique to mobile or a specific platform.
 
 # Setup your environment
 
-Prepare your plugin development environment. For testing on multiple platforms, you'll need some sort of synchronization method available. I use [Obsidian Sync](https://obsidian.md/sync), but other methods will also work.
+For testing on multiple platforms, you'll need some sort of synchronization method available. I use [Obsidian Sync](https://obsidian.md/sync), but other methods will also work.
 
 ## Create and configure a test vault
 
@@ -48,7 +48,7 @@ In order to propagate changes to your plugin to other devices, you will need to 
 
 # Desktop testing
 
-Now we're ready to test our plugin on desktop.
+Now we're ready to test our plugin in the desktop environment.
 
 ## Checkout local workspace
 
@@ -79,7 +79,7 @@ Where `/path/to/workspace` is where your plugin source code is stored.
 
 #### Windows (PowerShell)
 
-> To create symbolic links with PowerShell, you may need to enable Windows [Developer Mode](https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development). TLDR: Go to **Settings > Update & Security > For developers** and turn on "Developer Mode".
+> If you get a permissions error when attempting to to create a symbolic link in PowerShell, you will need to enable Windows [Developer Mode](https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development). TLDR: Go to **Settings > Update & Security > For developers** and turn on "Developer Mode".
 
 ```powershell
 New-Item -ItemType SymbolicLink -Path "$PWD\main.js" -Target "path\to\workspace\main.js"
@@ -91,13 +91,13 @@ New-Item -ItemType SymbolicLink -Path "$PWD\styles.css" -Target "path\to\workspa
 
 Now you are ready to run and debug your plugin. Start `yarn dev` or `npm run dev` in the project directory. In Obsidian, navigate to **Settings > Community Plugins** and click the reload button. Make sure your plugin is listed and is enabled.
 
-Now you can press Shift+Ctrl+I (Windows/Linux) or Alt+⌘+I (Mac) to open Developer Tools to browse the DOM, see console output, etc. When running in dev/watch mode, you should see your plugin's `main.ts` listed in the Sources tab:
+Press **Shift+Ctrl+I** (Windows/Linux) or **Alt+⌘+I** (Mac) to open Developer Tools to browse the DOM, see console output, etc.
+
+When running in dev/watch mode, you should see your plugin's `main.ts` listed in the Sources tab:
 
 ![Obsidian Source Map](/assets/images/obsidian-source-map.png)
 
-If your plugin project has additional sources (for example in a `src` directory), they should also be visible.
-
-Use the source maps to set breakpoints, step through your code, etc:
+If your plugin project has additional sources (for example in a `src` directory), they should also be visible. Use the source maps to set breakpoints, step through your code, etc:
 
 ![Debugging Obsidian](/assets/images/obsidian-debug.png)
 
@@ -154,6 +154,26 @@ If everything has synchronized correctly, your plugin should now be active. Go t
 ## Mobile Debugging
 
 ### Android devices
+
+To debug your plugin on an Android device:
+
+- Connect the device with a USB cable.
+- Enable [Developer Mode](https://developer.android.com/studio/debug/dev-options) (open the Setttings app, go to **Settings > About Phone** and click **Build Number** seven times).
+- Start Obsidian on the device (and ensure your plugin is active).
+- On the PC, open Chrome or another Chromium-based browser and enter `chrome://inspect` in the address bar.
+- You may see an "Allow USB debugging?" pop-up on the phone. Click **Allow**.
+
+You should see your device listed:
+
+![Chrome inspect](/assets/images/chrome-android-inspect.png)
+
+It may take a few seconds for the device to be recognized.
+
+Click *inspect* to connect to the device and open the inspection/debug window.
+
+![Android inspect/debug](/assets/images/obsidian-debug-android.png)
+
+
 
 ### IOS devices
 
