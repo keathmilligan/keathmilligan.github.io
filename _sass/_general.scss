@@ -60,6 +60,7 @@ code {
 
 pre > code {
     overflow-x: auto;
+    font-size: 12px;
 }
 
 img {
@@ -89,6 +90,26 @@ ul {
         display: inline-block;
         margin-left: -1.5em;
         width: 1.5em;
+    }
+}
+
+ul#markdown-toc {
+    list-style: disc;
+    padding: 0;
+    ul {
+        padding: 0 0 0 2rem;
+        list-style: disc;
+        margin: 0;
+    }
+    li {
+        padding: 0;
+        margin: 0;
+    }
+    li:before {
+        content: inherit;
+        font-family: inherit;
+        display: inherit;
+        margin: 0;
     }
 }
 
@@ -173,6 +194,13 @@ td {
     .post-title {
         font-family: Roboto, Arial, Helvetica, sans-serif;
         padding-top: 0;
+
+        a {
+            color: inherit;
+        }
+        a:hover {
+            color: $link-color;
+        }
     }
 
     .post-item-img {

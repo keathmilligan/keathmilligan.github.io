@@ -2,7 +2,7 @@
 layout: post
 title: Automate your work with the Microsoft Graph API and Python
 date: 2020-03-22 10:26:55 -0500
-categories: [dev]
+categories: [dev, automation]
 tags: [python, rest, microsoft, graph, msal, teams, sharepoint]
 image: /assets/images/msgraph.png
 image: /assets/images/msgraph.png
@@ -43,7 +43,7 @@ In order for your app to access Office 365 content and functionality, you need t
 
 1. Select **API permissions** in the portal to view/add permissions.
 2. Click the **Add a permission** button and then select "Microsoft Graph".
-3. Select "Delegated prmissions".
+3. Select "Delegated permissions".
 
 For the purposes of this example, locate and add the following permissions:
 
@@ -139,7 +139,7 @@ When you run the app, you will see something like:
 To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code JE64IUO6K to authenticate.
 ```
 
-Open a browser to the URL, sign-in and enter the code. You will be asked to select an account and then to approve the application's access to the requesrted permissions. The app will block waiting for you to complete the process. When you approve the app, some basic information about your account will be displayed.
+Open a browser to the URL, sign-in and enter the code. You will be asked to select an account and then to approve the application's access to the requested permissions. The app will block waiting for you to complete the process. When you approve the app, some basic information about your account will be displayed.
 
 ## Token caching
 
