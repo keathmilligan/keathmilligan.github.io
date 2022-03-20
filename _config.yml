@@ -42,6 +42,7 @@ show_excerpts: true
 excerpt_separator: <!--more-->
 permalink: /:title
 highlighter: rouge
+auto_ids: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
