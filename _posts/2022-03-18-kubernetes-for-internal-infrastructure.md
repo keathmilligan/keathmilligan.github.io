@@ -3,7 +3,7 @@ layout: post
 title: Using Kubernetes for internal infrastructure
 date: 2022-03-18 08:30:00 -0500
 categories: [dev, devops, testing, automation]
-tags: [k8s, docker, containers, microservices]
+tags: [kubernetes, k8s, docker, containers, microservices]
 image: /assets/images/kubernetes-logo.png
 ---
 
