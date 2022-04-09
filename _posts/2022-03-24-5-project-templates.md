@@ -53,6 +53,8 @@ See [Pipfile vs. setup.py](https://pipenv.pypa.io/en/latest/advanced/#pipfile-vs
 
 ### 1) Python App Template
 
+![Python App Template](/assets/images/python-app-template.png)
+
 **Github: [https://github.com/keathmilligan/python-app-template](https://github.com/keathmilligan/python-app-template)**
 
 This is a general-purpose application template that features:
@@ -64,6 +66,8 @@ This is a general-purpose application template that features:
 * Command-line argument parsing and color output support with [Click](https://click.palletsprojects.com/en/8.0.x/)
 
 ### 2) Flask Quick Start Template
+
+![Flask Template](/assets/images/flask-template.png)
 
 **Github: [https://github.com/keathmilligan/flask-quickstart](https://github.com/keathmilligan/flask-quickstart)**
 
@@ -80,6 +84,8 @@ A template for creating a stand-alone Flask-based web application that serves HT
 * Pylint and Black
 
 ### 3) Flask Service Quick Start Template
+
+![Flask Service Template](/assets/images/flask-service-template.png)
 
 **Github: [https://github.com/keathmilligan/flask-service](https://github.com/keathmilligan/flask-service)**
 
